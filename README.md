@@ -60,3 +60,5 @@ how to setup the whole CI process using the sample proxy and Dockerfile.
 
 Head over to community.apigee.com or #accelerator-ci-maven slack channel (for
 apigeeks only) for questions or discussions.
+
+gk edit
