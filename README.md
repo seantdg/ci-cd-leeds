@@ -1,5 +1,5 @@
 # Continuous Integration for Apigee Proxies using Maven
-GK
+
 ![CI for Apigee Proxies](docs/images/apigee-ci.png)
 
 The objective of this project is to implement a containarised framework that can
@@ -61,4 +61,3 @@ how to setup the whole CI process using the sample proxy and Dockerfile.
 Head over to community.apigee.com or #accelerator-ci-maven slack channel (for
 apigeeks only) for questions or discussions.
 
-gk edit
