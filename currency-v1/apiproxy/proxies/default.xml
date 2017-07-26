@@ -25,7 +25,7 @@
 	</PreFlow>
 
 	<Flows>
-		<Flow name="Get Exchange Rates">
+		<Flow name="Get Exchange Rates Flow">
 			<Condition>
 				(request.verb = "GET") and 
 				(proxy.pathsuffix MatchesPath "/rates")
