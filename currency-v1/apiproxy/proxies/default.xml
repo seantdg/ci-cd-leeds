@@ -28,7 +28,7 @@
 		<Flow name="Get Exchange Rates">
 			<Condition>
 				(request.verb = "GET") and 
-				(proxy.pathsuffix MatchesPath "/rates")
+				(proxy.pathsuffix MatchesPath "/exchange-rates")
 			</Condition>
 		</Flow>
 
