@@ -30,8 +30,8 @@
 		<project.root.dir>${basedir}</project.root.dir>
 		<target.root.dir>${basedir}/target</target.root.dir>
 		<deployment.suffix>${user.name}</deployment.suffix>
-		<user>${user}</user>
-		<pass>${pass}</pass>
+		<username>${user}</username>
+		<password>${pass}</password>
 		<commit></commit>
 		<branch>a local</branch>
 	</properties>
@@ -47,8 +47,8 @@
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>seandavis</apigee.org>
-				<apigee.username>${user}</apigee.username>
-				<apigee.password>${pass}</apigee.password>
+				<apigee.username>${username}</apigee.username>
+				<apigee.password>${password}</apigee.password>
 				<apigee.options>update</apigee.options>
 				<api.northbound.domain>seandavis-test.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip</api.testtag>
