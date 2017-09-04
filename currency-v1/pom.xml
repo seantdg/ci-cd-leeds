@@ -30,6 +30,8 @@
 		<project.root.dir>${basedir}</project.root.dir>
 		<target.root.dir>${basedir}/target</target.root.dir>
 		<deployment.suffix>${user.name}</deployment.suffix>
+		<user>${user}</user>
+		<pass>${pass}</pass>
 		<commit></commit>
 		<branch>a local</branch>
 	</properties>
@@ -44,11 +46,11 @@
 				<apigee.env>test</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>${env.APIGEE_ORG}</apigee.org>
-				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
-				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
+				<apigee.org>seandavis</apigee.org>
+				<apigee.username>${user}</apigee.username>
+				<apigee.password>${pass}</apigee.password>
 				<apigee.options>update</apigee.options>
-				<api.northbound.domain>${env.API_DOMAIN_TEST}</api.northbound.domain>
+				<api.northbound.domain>seandavis-test.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip</api.testtag>
 			</properties>
 		</profile>
@@ -59,12 +61,12 @@
 				<apigee.env>prod</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>${env.APIGEE_ORG}</apigee.org>
-				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
-				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
+				<apigee.org>seandavis</apigee.org>
+				<apigee.username>${user}</apigee.username>
+				<apigee.password>${pass}</apigee.password>
 				<apigee.options>override</apigee.options>
 				<apigee.override.delay>5</apigee.override.delay>
-				<api.northbound.domain>${env.API_DOMAIN_PROD}</api.northbound.domain>
+				<api.northbound.domain>seandavis-prod.apigee.net</api.northbound.domain>
 				<api.testtag>~@wip,~@mock</api.testtag>
 			</properties>
 		</profile>
